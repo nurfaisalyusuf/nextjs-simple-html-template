@@ -151,6 +151,7 @@ class AppHeader extends React.Component {
                                 id="navbarSupportedContent"
                             >
                                 <ul className="nav navbar-nav menu_nav ml-auto">
+                                    
                                     {menuItems.map((menu, i) => {
                                         let subMenus = "";
                                         let idSearch = "";

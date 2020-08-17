@@ -69,7 +69,6 @@ export class ContactPage extends Component {
                                     action="contact_process.php"
                                     method="post"
                                     id="contactForm"
-                                    novalidate="novalidate"
                                 >
                                     <div className="col-md-6">
                                         <div className="form-group">
@@ -79,8 +78,6 @@ export class ContactPage extends Component {
                                                 id="name"
                                                 name="name"
                                                 placeholder="Enter your name"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Enter your name'"
                                                 required=""
                                             />
                                         </div>
@@ -91,8 +88,6 @@ export class ContactPage extends Component {
                                                 id="email"
                                                 name="email"
                                                 placeholder="Enter email address"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Enter email address'"
                                                 required=""
                                             />
                                         </div>
@@ -103,8 +98,6 @@ export class ContactPage extends Component {
                                                 id="subject"
                                                 name="subject"
                                                 placeholder="Enter Subject"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Enter Subject'"
                                                 required=""
                                             />
                                         </div>
@@ -117,8 +110,6 @@ export class ContactPage extends Component {
                                                 id="message"
                                                 rows="1"
                                                 placeholder="Enter Message"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Enter Message'"
                                                 required=""
                                             ></textarea>
                                         </div>

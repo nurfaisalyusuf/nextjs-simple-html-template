@@ -438,24 +438,24 @@ export class ElementPage extends Component {
 						<h3 className="mb-30 title_color">Form Element</h3>
 						<form action="#">
 							<div className="mt-10">
-								<input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'"
+								<input type="text" name="first_name" placeholder="First Name" 
 								 required className="single-input"/>
 							</div>
 							<div className="mt-10">
-								<input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"
+								<input type="text" name="last_name" placeholder="Last Name" 
 								 required className="single-input"/>
 							</div>
 							<div className="mt-10">
-								<input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"
+								<input type="text" name="last_name" placeholder="Last Name" 
 								 required className="single-input"/>
 							</div>
 							<div className="mt-10">
-								<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'"
+								<input type="email" name="EMAIL" placeholder="Email address" 
 								 required className="single-input"/>
 							</div>
 							<div className="input-group-icon mt-10">
 								<div className="icon"><i className="ti-location-pin" aria-hidden="true"></i></div>
-								<input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'"
+								<input type="text" name="address" placeholder="Address" 
 								 required className="single-input"/>
 							</div>
 							<div className="input-group-icon mt-10">
@@ -484,19 +484,19 @@ export class ElementPage extends Component {
 							</div>
 
 							<div className="mt-10">
-								<textarea className="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"
+								<textarea className="single-textarea" placeholder="Message" 
 								 required></textarea>
 							</div>
 							<div className="mt-10">
-								<input type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'"
+								<input type="text" name="first_name" placeholder="Primary color" 
 								 required className="single-input-primary"/>
 							</div>
 							<div className="mt-10">
-								<input type="text" name="first_name" placeholder="Accent color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'"
+								<input type="text" name="first_name" placeholder="Accent color"
 								 required className="single-input-accent"/>
 							</div>
 							<div className="mt-10">
-								<input type="text" name="first_name" placeholder="Secondary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'"
+								<input type="text" name="first_name" placeholder="Secondary color" 
 								 required className="single-input-secondary"/>
 							</div>
 						</form>
@@ -508,21 +508,21 @@ export class ElementPage extends Component {
 								<p>01. Sample Switch</p>
 								<div className="primary-switch">
 									<input type="checkbox" id="default-switch"/>
-									<label for="default-switch"></label>
+									<label htmlFor="default-switch"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>02. Primary Color Switch</p>
 								<div className="primary-switch">
-									<input type="checkbox" id="primary-switch" checked/>
-									<label for="primary-switch"></label>
+									<input type="checkbox" id="primary-switch" />
+									<label htmlFor="primary-switch"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>03. Confirm Color Switch</p>
 								<div className="confirm-switch">
-									<input type="checkbox" id="confirm-switch" checked/>
-									<label for="confirm-switch"></label>
+									<input type="checkbox" id="confirm-switch" />
+									<label htmlFor="confirm-switch"></label>
 								</div>
 							</div>
 						</div>
@@ -544,35 +544,35 @@ export class ElementPage extends Component {
 								<p>01. Sample Checkbox</p>
 								<div className="primary-checkbox">
 									<input type="checkbox" id="default-checkbox"/>
-									<label for="default-checkbox"></label>
+									<label htmlFor="default-checkbox"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>02. Primary Color Checkbox</p>
 								<div className="primary-checkbox">
-									<input type="checkbox" id="primary-checkbox" checked/>
-									<label for="primary-checkbox"></label>
+									<input type="checkbox" id="primary-checkbox" />
+									<label htmlFor="primary-checkbox"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>03. Confirm Color Checkbox</p>
 								<div className="confirm-checkbox">
 									<input type="checkbox" id="confirm-checkbox"/>
-									<label for="confirm-checkbox"></label>
+									<label htmlFor="confirm-checkbox"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>04. Disabled Checkbox</p>
 								<div className="disabled-checkbox">
 									<input type="checkbox" id="disabled-checkbox" disabled/>
-									<label for="disabled-checkbox"></label>
+									<label htmlFor="disabled-checkbox"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>05. Disabled Checkbox active</p>
 								<div className="disabled-checkbox">
-									<input type="checkbox" id="disabled-checkbox-active" checked disabled/>
-									<label for="disabled-checkbox-active"></label>
+									<input type="checkbox" id="disabled-checkbox-active"  disabled/>
+									<label htmlFor="disabled-checkbox-active"></label>
 								</div>
 							</div>
 						</div>
@@ -582,35 +582,35 @@ export class ElementPage extends Component {
 								<p>01. Sample radio</p>
 								<div className="primary-radio">
 									<input type="checkbox" id="default-radio"/>
-									<label for="default-radio"></label>
+									<label htmlFor="default-radio"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>02. Primary Color radio</p>
 								<div className="primary-radio">
-									<input type="checkbox" id="primary-radio" checked/>
-									<label for="primary-radio"></label>
+									<input type="checkbox" id="primary-radio" />
+									<label htmlFor="primary-radio"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>03. Confirm Color radio</p>
 								<div className="confirm-radio">
-									<input type="checkbox" id="confirm-radio" checked />
-									<label for="confirm-radio"></label>
+									<input type="checkbox" id="confirm-radio"  />
+									<label htmlFor="confirm-radio"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>04. Disabled radio</p>
 								<div className="disabled-radio">
 									<input type="checkbox" id="disabled-radio" disabled />
-									<label for="disabled-radio"></label>
+									<label htmlFor="disabled-radio"></label>
 								</div>
 							</div>
 							<div className="switch-wrap d-flex justify-content-between">
 								<p>05. Disabled radio active</p>
 								<div className="disabled-radio">
-									<input type="checkbox" id="disabled-radio-active" checked disabled />
-									<label for="disabled-radio-active"></label>
+									<input type="checkbox" id="disabled-radio-active"  disabled />
+									<label htmlFor="disabled-radio-active"></label>
 								</div>
 							</div>
 						</div>

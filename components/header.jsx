@@ -100,7 +100,7 @@ class AppHeader extends React.Component {
             // <!--================ Start Header Menu Area =================-->
             <header className={`header_area ${whiteArea}`}>
                 <div className="main_menu">
-                    <div className="search_input" id="search_input_box">
+                    <div className="search_input" id="search_input_box" style={{display: "none"}}>
                         <div className="container">
                             <form
                                 className="d-flex justify-content-between"

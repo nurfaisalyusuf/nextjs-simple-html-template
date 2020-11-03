@@ -29,7 +29,7 @@ export class ContactPage extends Component {
                 {/* <!--================Contact Area =================--> */}
                 <section className="contact_area section_gap">
                     <div className="container">
-                        <div
+                        {/* <div
                             id="mapBox"
                             className="mapBox"
                             data-lat="40.701083"
@@ -38,7 +38,7 @@ export class ContactPage extends Component {
                             data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
                             data-mlat="40.701083"
                             data-mlon="-74.1522848"
-                        ></div>
+                        ></div> */}
                         <div className="row">
                             <div className="col-lg-3">
                                 <div className="contact_info">
